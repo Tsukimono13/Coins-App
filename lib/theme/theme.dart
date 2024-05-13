@@ -15,15 +15,18 @@ final darkTheme = ThemeData(
   dividerColor: Colors.white24,
   listTileTheme: const ListTileThemeData(iconColor: Colors.white),
   textTheme: TextTheme(
-      bodyMedium: const TextStyle(
-        color: Colors.white,
-        fontWeight: FontWeight.w500,
-        fontSize: 18,
-      ),
-      bodySmall: TextStyle(
-        color: Colors.white.withOpacity(0.6),
-        fontWeight: FontWeight.w500,
-        fontSize: 14,
-      )),
+    bodyMedium: const TextStyle(
+      color: Colors.white,
+      fontWeight: FontWeight.w500,
+      fontSize: 18,
+    ),
+    bodySmall: TextStyle(
+      color: Colors.white.withOpacity(0.6),
+      fontWeight: FontWeight.w500,
+      fontSize: 14,
+    ),
+    labelSmall: const TextStyle(
+        color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500),
+  ),
   useMaterial3: true,
 );
